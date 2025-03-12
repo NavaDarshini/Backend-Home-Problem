@@ -45,7 +45,7 @@ To run this project, ensure that the following are installed on your system:
    - Clone the project to your local machine using Git.
 
    ```bash
-   git clone https://github.com/NavaDarshini/Backend-Home-Problem.git
+   git clone https://github.com/NavaDarshini/PubMed-Paper-Fetcher
 
-   cd Backend-Home-Problem
+   cd PubMed-Paper-Fetcher
 
