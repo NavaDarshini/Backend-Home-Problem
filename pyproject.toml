@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "pubmed-fetcher"
+version = "0.1.0"
+description = "A Python program to fetch research papers from PubMed."
+authors = [
+    "NavaDarshini <alladanavadarshini@gmail.com>"
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "requests",  # Add the necessary dependencies like requests
+    "argparse"   # Add argparse if you plan to support command-line arguments
+]
+
+[tool.poetry.scripts]
+get-papers-list = "pubmed_fetcher:main"  # This links the script to the main function in your code
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
