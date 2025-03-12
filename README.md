@@ -45,6 +45,7 @@ To run this project, ensure that the following are installed on your system:
    - Clone the project to your local machine using Git.
 
    ```bash
-   git clone https://github.com/your-username/your-repository-name.git
-   cd your-repository-name
-# Backend-Home-Problem
+   git clone https://github.com/NavaDarshini/Backend-Home-Problem.git
+
+   cd Backend-Home-Problem
+
